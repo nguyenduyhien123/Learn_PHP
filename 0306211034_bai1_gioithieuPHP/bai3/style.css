@@ -1,0 +1,8 @@
+.img
+{
+    display:block;
+    max-width:100%;
+    border: 2px solid #abedfa;
+    border-radius:10px;
+    box-shadow:3px 3px 3px gray;
+}

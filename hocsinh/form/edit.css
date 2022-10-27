@@ -1,0 +1,84 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    position: relative;
+}
+.container_button
+{
+    margin:0 auto;
+    margin-top:4rem;
+    width:50%;
+}
+#show-btn-edit,#hide-btn-edit
+{
+    user-select: none;
+    cursor:pointer;
+    font-family: "Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif";
+    color:white;
+    width:fit-content;
+    height:fit-content;
+    font-size:1.5rem;
+    background-color:#188038;
+    text-align:center;
+    padding:9px 16px 10px 12px;
+    border-radius:0.5rem;
+    font-weight:bolder;
+    letter-spacing: 0.5px;
+}
+#hide-btn-edit{
+    display:none;
+}
+#modal-edit
+{
+    display:none;
+    z-index:1;
+    width:100%;
+    margin:0 auto;
+    border: 2px solid red;
+    padding:2rem;
+    overflow-y:auto;
+}
+.title
+{
+    font-size:2.5rem;
+    text-align:center;
+    color:red;
+}
+label,input{
+    margin-top:1rem;
+    font-size: 1.5rem;
+    margin-bottom:1rem;
+}
+input
+{
+    padding:0.5rem;
+    min-width:100%;
+    width:fit-content;
+}
+#btn
+{
+    display:block;
+    padding:.5rem;
+    width:100%;
+    height:fit-content;
+    font-size:1.25rem;
+}
+.notification
+{
+    text-align:center;
+    margin-bottom: 2rem;
+    font-size:2rem;
+    margin-top:2rem;
+    color:red;
+}
+.redirect
+{
+    font-size: 2rem;
+    text-align:center;
+    color:red;
+}

@@ -1,0 +1,147 @@
+.main
+{
+    margin:0 auto;
+    width:70%;
+}
+.title
+{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    text-align:center;
+    color:red;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+table
+{
+    border-collapse: collapse;
+}
+th,td
+{
+    border:1px solid red;
+    padding:.5rem;
+}
+tr:nth-child(even)
+{
+    background-color: rgb(235, 232, 232);
+}
+input
+{
+    width:12rem;
+    height:2rem;
+}
+a
+{
+    text-decoration: none;
+    color:blue;
+}
+a:visited
+{
+    color:blue;
+}
+/* css-button */
+.show-btn-edit,.hide-btn-edit
+{
+    user-select: none;
+    cursor:pointer;
+    font-family: "Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif";
+    color:white;
+    width:fit-content;
+    height:fit-content;
+    font-size:1.5rem;
+    background-color:.188038;
+    text-align:center;
+    padding:9px 16px 10px 12px;
+    border-radius:0.5rem;
+    font-weight:bolder;
+    letter-spacing: 0.5px;
+}
+.hide-btn-edit{
+    display:none;
+}
+.modal-edit
+{
+    display:none;
+    z-index:1;
+    width:100%;
+    margin:0 auto;
+    border: 2px solid red;
+    padding:2rem;
+    overflow-y:auto;
+}
+.show-btn-detail,.hide-btn-detail
+{
+    user-select: none;
+    cursor:pointer;
+    font-family: "Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif";
+    color:white;
+    width:fit-content;
+    height:fit-content;
+    font-size:1.5rem;
+    background-color:.188038;
+    text-align:center;
+    padding:9px 16px 10px 12px;
+    border-radius:0.5rem;
+    font-weight:bolder;
+    letter-spacing: 0.5px;
+}
+.hide-btn-detail{
+    display:none;
+}
+.modal-detail
+{
+    display:none;
+    z-index:1;
+    width:100%;
+    margin:0 auto;
+    border: 2px solid red;
+    padding:2rem;
+    overflow-y:auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+.modal-detail-content
+{
+    background-color: #fefefe;
+}
+.show-btn-delete,
+.hide-btn-delete {
+    user-select: none;
+    cursor: pointer;
+    font-family: "Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif";
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.5rem;
+    background-color: .188038;
+    text-align: center;
+    padding: 9px 16px 10px 12px;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+.hide-btn-delete {
+    display: none;
+}
+
+.modal-delete {
+    display: none;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 2rem;
+    overflow-y: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-delete-content {
+    background-color: #fefefe;
+}
